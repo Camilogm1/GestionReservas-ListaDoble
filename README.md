@@ -1,5 +1,5 @@
 El contexto del programa trara sobre una agencia de viaje que desea organizar sus reservas. En este contexto es mas como utilizar listas 
-Doblemente ligadas debido a que se requiere recorrer la lista tanto al derechocomo al revez.
+Doblemente ligadas debido a que se requiere recorrer la lista tanto al derecho como al revez.
 
 Para que funcione solo se requiere tener los 4 archivos y ejecutar el main.py, despues de ejecutarse una vez se van a guardar unos
 "archivos".pyc, que son bytecode, es decir si se vuelve a ejecutar y no a cambiado nada, el programa lee directamente los .pyc
