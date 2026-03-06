@@ -5,9 +5,10 @@ Para que funcione solo se requiere tener los 4 archivos y ejecutar el main.py, d
 "archivos".pyc, que son bytecode, es decir si se vuelve a ejecutar y no a cambiado nada, el programa lee directamente los .pyc
 
 Algunas desiciones de diseño que tome son: Implementar una funcion intercambiar_nodos, esto debido a que era algo que se usa 
-frecuentemente en las funciones de ordenaminto, y por comodidad era mas facil definirlo como funcion. Implemente un submenu en el menu
-del main, para mostrar las 4 formas de ordenar la lista de una forma mas ordenada y tambien implemente un nuevo metodo de ordenamiento 
-que es ordenar por id, para volver a la lista original despues de ordenerla de alguna manera (cosa que no se puede sin el metodo)
+frecuentemente en las funciones de ordenaminto, y por comodidad era mas facil definirlo como una funcion, en vez de tener que repetir el procedimiento todas las veces 
+que requeria implementarlo. Tambien implemente un nuevo metodo de ordenamiento que es ordenar por id, para volver a la lista original despues de ordenerla de 
+alguna manera (cosa que no se puede sin el metodo), esto por si se desea comparar cierto ordenamiento con la lista original (asumiento que los ids siguen un orden especifico
+de menor a mayor)
 
 Como Herramienta de apoyo use Gemini. algunos promts que use fueron: "Como intercambiar dos nodos físicos en una lista doble en Python
 sin que se rompa el orden de la lista?", "Algoritmo para la moda en una lista que ya está ordenada.", "Como vincular 2 archivos diferentes
